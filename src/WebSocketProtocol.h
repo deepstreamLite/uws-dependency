@@ -360,7 +360,7 @@ public:
     static const int CONSUME_PRE_PADDING = LONG_MESSAGE_HEADER - 1;
 
     // events to be implemented by application (can't be inline currently)
-    bool refusePayloadLength(void *user, int length);
+    bool refusePayloadLength(void *user, uint64_t length);
     bool setCompressed(void *user);
     void forceClose(void *user);
     bool handleFragment(char *data, size_t length, unsigned int remainingBytes, int opCode, bool fin, void *user);
