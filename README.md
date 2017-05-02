@@ -13,6 +13,8 @@
 [![npm version](https://badge.fury.io/js/uws.svg)](https://badge.fury.io/js/uws) [![](https://api.travis-ci.org/uWebSockets/uWebSockets.svg?branch=master)](https://travis-ci.org/uWebSockets/uWebSockets) [![](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/uWebSockets/uWebSockets)
 
 ## Benchmarks table - [validate](https://github.com/alexhultman/uWebSockets/tree/master/benchmarks#websocket-echo-server-benchmarks)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/deepstreamIO/uws-dependency.svg)](https://greenkeeper.io/)
 Implementation | User space memory scaling | Connection performance | Short message throughput | Huge message throughput
 --- | --- | --- | --- | ---
 Beast 1.0.0 b17 | µWS is **7x** as lightweight :+1: | µWS is **4x** as performant | µWS is **22x** as performant | µWS is **3x** as performant
